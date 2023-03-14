@@ -1,6 +1,6 @@
 package game;
 
-public class Main2 {
+public class Main {
     public static void main(String[] args) {
 //        NewCleric nc = new NewCleric("아서스", 40, 5);
 //        NewCleric nc2 = new NewCleric("지은", 40, 5);

@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class NewCleric {
     String name;
+    // 연습문제 9-1.최대 HP, 최대 MP의 필드가 각 인스턴스별로 있지 않도록, 필드 선언에 적절한 키워드를 추가 하시오.
     static final int HP_MAX = 50; 
     static final int MP_MAX = 10;
     int hp = HP_MAX; 

@@ -3,12 +3,12 @@ package dayEighth;
 public abstract class TangibleAsset extends Asset implements Thing {
     private String name;
     private int price;
-    private String function;
+    private String color;
 
     TangibleAsset(String name, int price, String function) {
         this.name = name;
         this.price = price;
-        this.function = function;
+        this.color = color;
     }
 
     public String getName() {
@@ -20,7 +20,7 @@ public abstract class TangibleAsset extends Asset implements Thing {
     }
 
     public String getColor() {
-        return function;
+        return color;
     }
 
 }

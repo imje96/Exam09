@@ -109,7 +109,7 @@ public class LibManager {
 	public void 도서관리() {
 		int select;
 		while (true) {
-			System.out.println("\n<도서 관리>\n0. 뒤로 가기\t1. 도서 추가\t2. 도서 조회\t3. 도서 수정\t4. 도서 삭제");
+			System.out.println("\n<도서 관리>\n0. 뒤로 가기\t1. 도서 조회\t2. 도서 추가\t3. 도서 수정\t4. 도서 삭제");
 			select = sc.nextInt();
 
 			switch (select) {

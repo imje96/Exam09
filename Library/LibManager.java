@@ -25,7 +25,7 @@ public class LibManager {
 		int select;
 
 		while (true) {
-			System.out.println("\n<도서 관리 프로그램 시작>\n0. 프로그램 종료\t1. 회원 관리\t2.(사용불가) 도서 관리\t3. 대출 관리 ");
+			System.out.println("\n<도서 관리 프로그램 시작>\n0. 프로그램 종료\t1. 회원 관리\t2.도서 관리\t3.(사용불가)  대출 관리 ");
 			System.out.println("3번. 대출 관리 서비스는 성능 개선 작업으로 인해 임시적으로 사용이 중단됩니다.");
 			select = sc.nextInt();
 
